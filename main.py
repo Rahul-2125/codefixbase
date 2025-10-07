@@ -4,13 +4,14 @@ books = []
 def add_book(title, author):
     book = {"title": title, "author": author}
     books.append(book)
-    msg = "Book successfully added"
+    # msg = "Book successfully added"
     return book
 
 
 def get_books():
     temp_list = books
-    return books
+    print(hhhhhhhhhhhhhh)
+    # return books
 
 
 def get_latest_book():
