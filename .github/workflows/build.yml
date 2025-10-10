@@ -8,7 +8,6 @@ variables:
   GIT_DEPTH: "0"
   URL: "https://xr8v928q-8000.inc1.devtunnels.ms/api/fix/code-review"
   SONAR_OUTPUT_FILE: "sonar_issues.json"
-  
 
 stages:
   - build-sonar
